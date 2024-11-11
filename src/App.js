@@ -6,7 +6,7 @@ import MainPage from './pages/MainPage';
 function App() {
     return (
         <Router>
-            <div>
+            <div className="app">
                 <h1>Welcome to the Quiz Game</h1>
                 <Routes>
                     <Route path="/" element={<MainPage />} />

@@ -5,3 +5,33 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+/* App.css */
+.app {
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.room-list, .chat {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.message {
+    background-color: #f1f1f1;
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 3px;
+}
